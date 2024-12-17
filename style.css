@@ -1,0 +1,24 @@
+body,
+html {
+  height: 100%;
+}
+.bg {
+  background-image: url("images/Chronometer.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+header {
+  /* border: 5px solid black; */
+  position: relative;
+  background-color: beige;
+  margin: 0;
+  width: 100%;
+}
+h1 {
+  color: black;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
