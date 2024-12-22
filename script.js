@@ -41,5 +41,11 @@ startBtn.addEventListener("click", function () {
   }
 });
 
+// stop stopwatch
+stopBtn.addEventListener("click", function () {
+  console.log("stop");
+  clearInterval(interval);
+  interval = null;
+});
 // Initialize the display
 updateDisplay();
