@@ -22,3 +22,20 @@ h1 {
   display: flex;
   justify-content: center;
 }
+main {
+  margin-top: 150px;
+  position: relative;
+}
+div {
+  display: flex;
+  justify-content: center;
+}
+#timer {
+  font-size: 10em;
+  margin-bottom: 20px;
+}
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1em;
+}
