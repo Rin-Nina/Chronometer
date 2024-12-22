@@ -42,10 +42,21 @@ startBtn.addEventListener("click", function () {
 });
 
 // stop stopwatch
-stopBtn.addEventListener("click", function () {
+let stopWatch = function () {
   console.log("stop");
   clearInterval(interval);
   interval = null;
+};
+stopBtn.addEventListener("click", stopWatch);
+
+// reset stopwatch
+resetBtn.addEventListener("click", function () {
+  console.log("reset");
+  //stop watch
+  stopWatch();
+  lapTime = 0;
+  updateDisplay();
 });
+
 // Initialize the display
 updateDisplay();
